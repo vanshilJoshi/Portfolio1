@@ -1,0 +1,242 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+.navbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: black;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: burlywood;
+    font-style: italic;
+    transition: 0.4s ease-in-out;
+}
+
+.logo a:hover{
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #66BFBF;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: burlywood;
+}
+
+h2 {
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #66BFBF;
+}
+
+p{
+    font-size: larger;
+    margin-left: 6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.btn_one{
+    color: white;
+}
+
+#check{
+    visibility: hidden;
+}
+
+.navdiv .menu ul{
+    transition:linear;
+}
+
+.btn_one{
+   visibility: hidden;
+}
+
+.about1 h2{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #66BFBF;
+}
+
+hr{
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills h1{
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.75rem;
+    color: burlywood;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.fa-2xl {
+    font-size: 2em;
+    vertical-align: 1.1875em;
+    margin-left: 7rem;
+    padding: 1rem;
+}
+
+.fonticon{
+    justify-content: center;
+    
+}
+
+.interests h1{
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.75rem;
+    color: burlywood;
+    justify-content: center;
+    display: flex;
+}
+
+.interests p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-weight: 400;
+}
+
+.contact h1{
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.75rem;
+    color: burlywood;
+    justify-content: center;
+    display: flex;
+}
+
+.contact p{
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    font-weight: 400;
+}
+
+.img{
+    justify-content: center;
+    display: flex;
+}
+
+#btn1{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background: royalblue;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 29px;
+    padding: 0.625rem 2.25rem 0.625rem 2.18rem;
+    text-decoration: none;
+    margin: 11px;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover{
+    color: aliceblue;
+}
+
+.footer{
+    background-color: #66BFBF;
+    padding: 0px 0 0px;
+}
+
+.footer a{
+    background: #66BFBF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+}
+
+.footer p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.navdiv .menu ul{
+    transition:linear;
+}
+
+.btn_one{
+   visibility: hidden;
+}
+
+@media(max-width:515px){
+
+p{
+    margin-left: 0rem;
+}
+
+.interests p{
+    margin-left: 0rem;
+}
+
+br{
+    visibility: hidden;
+}
+
+.navdiv .menu ul{
+    opacity: 0;
+}
+
+#check:checked ~ .navdiv .menu ul{
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+
+.btn_one{
+    visibility: visible;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+}
+
+}
