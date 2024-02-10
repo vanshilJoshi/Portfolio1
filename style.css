@@ -91,6 +91,26 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+section .anim {
+    transition: 1s;
+} 
+
+.about .anim {
+    transform: translateX(-100%);
+}
+
+.about.animate .anim {
+    transform: translateX(0);
+}
+
+.about1 .anim {
+    transform: translateX(-100%);
+}
+
+.about1.animate .anim {
+    transform: translateX(0);
+}
+
 .about p {
     position: relative;
     font-size: 50px;
