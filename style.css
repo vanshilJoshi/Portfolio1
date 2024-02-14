@@ -182,7 +182,7 @@ hr{
     font-weight: 500;
 }
 
-.projects h1{
+.text-center {
     font-weight: 1000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
@@ -191,20 +191,46 @@ hr{
     display: flex;
 }
 
-.box-container {
+.ProjectsText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.ProjectsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+.card-title {
+    text-align: center;
+    color: black;
+}
+.card:hover .ProjectsIcon {
+    color: blueviolet;
+}
+.ProjectsText:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: space-evenly;
 }
 
-.box {
-    width: 20rem;
-    height: 20rem;
-    background-color: aliceblue;
-    
+.card-text {
+    font-size: 17px;
+    color: black;
 }
 
+.card-body {
+    width: 30rem;
+    text-decoration: none;
+}
+
+.ColSec {
+    text-decoration: none;
+}
 
 .contact h1{
     font-weight: 1000;
@@ -349,6 +375,18 @@ p{
 
 .fa-bars {
     background-color: black;
+}
+
+.row {
+    display: inline;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.card-body {
+    width: fit-content;
 }
 
 }
